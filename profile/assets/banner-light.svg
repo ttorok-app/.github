@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="또록사주: 사주로 1년에 한 편, 나만의 웹툰">
+  <style>
+    .serif { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; font-weight: 700; }
+    .sans { font-family: 'IBM Plex Sans KR', 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; }
+    .mono { font-family: 'IBM Plex Mono', 'SFMono-Regular', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="1280" height="320" rx="24" fill="#f4f0e8"/>
+  <text x="96" y="104" font-size="18" letter-spacing="6" fill="#6b665d" class="mono">TTOROK SAJU · 2027</text>
+  <text x="90" y="196" font-size="92" fill="#1c1b19" class="serif">또록사주</text>
+  <text x="96" y="248" font-size="28" fill="#6b665d" class="sans">사주로 1년에 한 편, 나만의 웹툰</text>
+  <circle cx="1030" cy="160" r="108" fill="none" stroke="#d9d1c1" stroke-width="2" stroke-dasharray="4 8"/>
+  <circle cx="1030.0" cy="52.0" r="40" fill="#428252"/>
+  <text x="1030.0" y="66.0" text-anchor="middle" font-size="40" fill="#f4f0e8" class="serif">木</text>
+  <circle cx="1132.7" cy="126.6" r="40" fill="#c74d38"/>
+  <text x="1132.7" y="140.6" text-anchor="middle" font-size="40" fill="#f4f0e8" class="serif">火</text>
+  <circle cx="1093.5" cy="247.4" r="40" fill="#b99056"/>
+  <text x="1093.5" y="261.4" text-anchor="middle" font-size="40" fill="#1c1b19" class="serif">土</text>
+  <circle cx="966.5" cy="247.4" r="40" fill="#c9ced4" stroke="#1c1b19" stroke-width="2"/>
+  <text x="966.5" y="261.4" text-anchor="middle" font-size="40" fill="#1c1b19" class="serif">金</text>
+  <circle cx="927.3" cy="126.6" r="40" fill="#0a345a"/>
+  <text x="927.3" y="140.6" text-anchor="middle" font-size="40" fill="#f4f0e8" class="serif">水</text>
+</svg>

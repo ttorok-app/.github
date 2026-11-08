@@ -1,0 +1,41 @@
+name: 버그
+description: 동작이 문서나 기대와 다를 때
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **개인정보를 적지 마세요.** 생년월일시·출생지·체크인 답·닉네임 대신 테스트 계정이나 `webtoon_id`, `y`를 적습니다.
+  - type: dropdown
+    id: env
+    attributes:
+      label: 환경
+      options: [local, dev, staging, prod]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 무엇이 잘못됐나
+      placeholder: 실제로 일어난 일
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대한 동작
+      description: 설계 문서 근거가 있으면 절을 적습니다. 예) `08` 1절, `01` D4
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법
+      placeholder: |
+        1.
+        2.
+  - type: textarea
+    id: logs
+    attributes:
+      label: 로그·스크린샷
+      description: 개인정보가 보이면 가립니다.

@@ -1,0 +1,42 @@
+name: 결정 필요
+description: 설계 문서에 없는 결정. 정해지면 ttorok-docs의 해당 문서에 반영하고 `99`에서 지운다
+labels: ["decision"]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: 항목
+      placeholder: 예) 체크인 답 수정 횟수
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 분류 (`99`의 표)
+      options: [제품, 디자인, 사주, 기술, 법무·운영]
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: 선택지
+      description: 선택지마다 결과를 짧게.
+      placeholder: |
+        A. … → …
+        B. … → …
+    validations:
+      required: true
+  - type: input
+    id: default
+    attributes:
+      label: 현재 기본값
+      description: 정해지기 전까지 구현에 쓰는 값
+  - type: dropdown
+    id: when
+    attributes:
+      label: 정할 때
+      options: [개발 착수 전, 해당 기능 개발 전, 출시 전, 출시 후]
+  - type: textarea
+    id: docs
+    attributes:
+      label: 영향받는 문서·코드
